@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>log-in</title>
+</head>
+<body>
+    <h3>login as admin</h3>
+    <input type="text" name="" placeholder="Enter UserName" id="aduser"> <br> <br>
+    <input type="text" name="" placeholder="Enter Password" id="adpass"> <br> <br>
+    <button id="ALogin">login</button>
+    <a href="./singup.html">user</a>
+</body>
+<script>
+document.getElementById("ALogin").addEventListener("click",()=>{
+    let auser = document.getElementById("aduser").value
+    let apass = document.getElementById("adpass").value
+     if(auser == "admin" && apass == "admin1234"){
+        location.href= "./admin.html";
+     }
+     else{
+        alert("user or password incorrect")
+     }
+})
+</script>
+</html>
