@@ -1,4 +1,4 @@
-// document.getElementById("logout").addEventListener("click",()=>{location.href="./index.html" })
+document.getElementById("logout").addEventListener("click",()=>{location.href="./index.html" })
 
 const supabaseUrl = 'https://sdwhmvkylqoqgfwqherf.supabase.co';
 const supabaseKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InNkd2htdmt5bHFvcWdmd3FoZXJmIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTUxNzIwNDgsImV4cCI6MjA3MDc0ODA0OH0.XVVIi60ktD6grXfBmv0Eccn_eXZbX9vyhrRwlt3bAAM";
